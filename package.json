@@ -1,0 +1,19 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A chat application built using Node.js, Socket.io and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsimran Singh Bedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
