@@ -11,8 +11,7 @@ var username = document.getElementById('username'),
 
 // EMIT EVENTS :
 // Listens to the 'click' event of the 'btn' and fires a callback function. (This is all Vanilla JS)
-
-function chatMessage() {
+btn.addEventListener('click', function () {
     if (message.value === '' || username.value === '') alert('Name or message field is empty.');
     else {
         /*
@@ -25,9 +24,7 @@ function chatMessage() {
             username: username.value
         });
     }
-}
-
-btn.addEventListener('click', chatMessage);
+});
 
 message.addEventListener('keypress', function () {
     socket.emit('typingMessage', username.value);
