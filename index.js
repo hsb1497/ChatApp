@@ -1,5 +1,7 @@
 var express = require('express'); // to tell 'JS' that 'Express' is required (for the application).
 
+// var path = require('path');
+
 // APP SETUP :
 var app = express(); // The variable 'express' is actually a function expression. 'express()' is calling or invoking the function stored inside the variable 'express'.
 
